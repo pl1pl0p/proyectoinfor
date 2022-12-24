@@ -242,7 +242,7 @@
 				{
 					"type": "EntradaDeTexto",
 					"properties": {
-						"text": "Vienvenido a la mazmorra informática",
+						"text": "Bienvenido a la mazmorra informática",
 						"placeholder": "",
 						"tooltip": "",
 						"initially-visible": true,

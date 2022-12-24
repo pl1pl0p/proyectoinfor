@@ -1,0 +1,45 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 293043066428616
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite",
+					"sid": 906832723622036,
+					"parameters": {
+						"object": "Sprite2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-top",
+					"objectClass": "Sprite",
+					"sid": 621385180732727
+				}
+			],
+			"sid": 500504290998332
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-visible",
+					"objectClass": "EntradaDeTexto",
+					"sid": 194983141768653
+				}
+			],
+			"actions": [],
+			"sid": 282583227680601
+		}
+	],
+	"sid": 790273494039530
+}

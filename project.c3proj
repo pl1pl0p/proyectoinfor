@@ -71,6 +71,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "filechooser",
+			"name": "Selector de archivo",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Plataforma",
@@ -155,7 +163,23 @@
 			"Texto7",
 			"Botón",
 			"Sprite19",
-			"Botón2"
+			"Botón2",
+			"Sprite20",
+			"Sprite21",
+			"Sprite22",
+			"Sprite23",
+			"Sprite24",
+			"Sprite25",
+			"Sprite26",
+			"SelectorDeArchivo",
+			"Texto8",
+			"Texto9",
+			"Texto10",
+			"Texto11",
+			"Sprite27",
+			"Sprite28",
+			"Sprite29",
+			"Sprite30"
 		],
 		"subfolders": []
 	},
@@ -178,7 +202,8 @@
 			"Escena 1",
 			"Escena 2",
 			"Escena 3",
-			"fail"
+			"fail",
+			"Escena 4"
 		],
 		"subfolders": []
 	},
@@ -187,7 +212,8 @@
 			"Hoja de eventos 1",
 			"Hoja de eventos 2",
 			"Hoja de eventos 3",
-			"fail1hoja"
+			"fail1hoja",
+			"Hoja de eventos 4"
 		],
 		"subfolders": []
 	},
@@ -239,6 +265,14 @@
 					"name": "GAMEOVER.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 219591533227404,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "022815townbgm.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 199430895076839,
 					"file-info": {
 						"purpose": "none"
 					}

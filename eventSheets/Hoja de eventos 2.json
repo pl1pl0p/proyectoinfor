@@ -110,9 +110,9 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Teclado",
-					"sid": 124149656346904,
+					"sid": 990981574519629,
 					"parameters": {
-						"key": 38
+						"key": 83
 					}
 				}
 			],

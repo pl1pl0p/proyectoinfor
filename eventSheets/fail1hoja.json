@@ -1,0 +1,52 @@
+{
+	"name": "fail1hoja",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 596800857678584
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 469112773555292,
+					"parameters": {
+						"audio-file": "GAMEOVER",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 163462041176375
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón2",
+					"sid": 631185026653687
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 161942749396109,
+					"parameters": {
+						"layout": "Escena 2"
+					}
+				}
+			],
+			"sid": 243873433287186
+		}
+	],
+	"sid": 499873479927201
+}

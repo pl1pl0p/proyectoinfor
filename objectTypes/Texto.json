@@ -1,0 +1,14 @@
+{
+	"name": "Texto",
+	"plugin-id": "Text",
+	"sid": 647515091743893,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "fogexponential",
+			"name": "Nieblaexponencial"
+		}
+	]
+}

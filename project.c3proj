@@ -24,14 +24,6 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Keyboard",
-			"name": "Teclado",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
 			"id": "Particles",
 			"name": "Partículas",
 			"author": "Scirra",
@@ -42,6 +34,22 @@
 			"type": "plugin",
 			"id": "TextBox",
 			"name": "Entrada de texto",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Teclado",
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
@@ -61,6 +69,30 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Fade",
+			"name": "Desvanecer",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "fogexponential",
+			"name": "Niebla (exponencial)",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "highlightshadow",
+			"name": "Brillo sombra",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "56qin55hgxu",
@@ -74,12 +106,22 @@
 			"FondoEnMosaico5",
 			"Sprite2",
 			"FondoEnMosaico6",
-			"Teclado",
 			"Sprite3",
 			"Sprite4",
 			"Sprite5",
 			"Partículas",
-			"EntradaDeTexto"
+			"EntradaDeTexto1",
+			"EntradaDeTexto",
+			"Texto",
+			"Teclado",
+			"Texto2",
+			"Texto3",
+			"respueta1",
+			"Sprite6",
+			"Sprite7",
+			"FondoEnMosaico7",
+			"Sprite8",
+			"personaj2"
 		],
 		"subfolders": []
 	},
@@ -91,13 +133,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1"
+			"Escena 1",
+			"Escena 2"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1"
+			"Hoja de eventos 1",
+			"Hoja de eventos 2"
 		],
 		"subfolders": []
 	},

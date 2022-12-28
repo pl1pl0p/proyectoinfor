@@ -23,8 +23,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -97,
-						"y": -54,
+						"x": -106,
+						"y": -59,
 						"width": 1779,
 						"height": 1039,
 						"originX": 0,
@@ -240,12 +240,153 @@
 					}
 				},
 				{
-					"type": "EntradaDeTexto",
+					"type": "Texto",
 					"properties": {
-						"text": "Bienvenido a la mazmorra informática",
+						"text": "Aventurero, bienvenido a la mazmorra informática",
+						"enable-bbcode": true,
+						"font": "serif",
+						"size": 12,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0.9333333333333333,
+							0.8862745098039215,
+							0.8862745098039215,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 10,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Nieblaexponencial": {
+							"isEnabled": true,
+							"parameters": {
+								"fog-color": [
+									0.8509803921568627,
+									0.807843137254902,
+									0.807843137254902,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
+					"world": {
+						"x": 74,
+						"y": 90,
+						"width": 232,
+						"height": 55,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Texto2",
+					"properties": {
+						"text": "Si deseas cruzar la puerta primero tendrás que responder correctamente una pregunta",
+						"enable-bbcode": true,
+						"font": "serif",
+						"size": 12,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0.9137254901960784,
+							0.8666666666666667,
+							0.8666666666666667,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 11,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 68,
+						"y": 84,
+						"width": 250,
+						"height": 80,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Texto3",
+					"properties": {
+						"text": "Cuántos Bits tiene un Byte?",
+						"enable-bbcode": true,
+						"font": "serif",
+						"size": 12,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0.9294117647058824,
+							0.8705882352941177,
+							0.8705882352941177,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 12,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 88,
+						"y": 106,
+						"width": 200,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "respueta1",
+					"properties": {
+						"text": "",
 						"placeholder": "",
 						"tooltip": "",
-						"initially-visible": true,
+						"initially-visible": false,
 						"enabled": true,
 						"read-only": false,
 						"spell-check": false,
@@ -254,14 +395,14 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 10,
+					"uid": 13,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 230,
-						"y": 101,
-						"width": 194,
-						"height": 42,
+						"x": 163,
+						"y": 160,
+						"width": 72,
+						"height": 38,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -270,6 +411,35 @@
 							1,
 							1
 						]
+					}
+				},
+				{
+					"type": "Sprite7",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 456,
+						"y": 264,
+						"width": 274,
+						"height": 299,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],
@@ -304,7 +474,19 @@
 	],
 	"sid": 419404136196752,
 	"nonworld-instances": [],
-	"effectTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "highlightshadow",
+			"name": "BrilloSombra",
+			"instance": {
+				"isEnabled": true,
+				"parameters": {
+					"shadow-factor": 0,
+					"highlight-factor": 1
+				}
+			}
+		}
+	],
 	"width": 1708,
 	"height": 960,
 	"unboundedScrolling": false,

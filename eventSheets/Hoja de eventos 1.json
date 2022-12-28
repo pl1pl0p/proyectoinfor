@@ -3,12 +3,6 @@
 	"events": [
 		{
 			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 293043066428616
-		},
-		{
-			"eventType": "block",
 			"conditions": [
 				{
 					"id": "is-overlapping-another-object",
@@ -24,6 +18,14 @@
 					"id": "move-to-top",
 					"objectClass": "Sprite",
 					"sid": 621385180732727
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Sprite7",
+					"sid": 807735780452540,
+					"parameters": {
+						"collisions": "disabled"
+					}
 				}
 			],
 			"sid": 500504290998332
@@ -32,13 +34,135 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-visible",
-					"objectClass": "EntradaDeTexto",
-					"sid": 194983141768653
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 828489306307833,
+					"parameters": {
+						"key": 32
+					}
+				},
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 900318323458657
 				}
 			],
-			"actions": [],
-			"sid": 282583227680601
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto",
+					"sid": 988520037955514,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto2",
+					"sid": 403512535021840,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 590284518154719,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto2",
+					"sid": 733991843380574,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 517073551666064,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto3",
+					"sid": 575649135187850,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "respueta1",
+					"sid": 112033314024853,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 704645084792099
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "respueta1",
+					"sid": 896178111129275,
+					"parameters": {
+						"text": "\"8\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite7",
+					"sid": 895504254493175,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Sprite7",
+					"sid": 457359712181745,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 976198888977398
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite7",
+					"sid": 289529243277681,
+					"parameters": {
+						"object": "Sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 450691186442752,
+					"parameters": {
+						"layout": "Escena 2"
+					}
+				}
+			],
+			"sid": 856376657759340
 		}
 	],
 	"sid": 790273494039530

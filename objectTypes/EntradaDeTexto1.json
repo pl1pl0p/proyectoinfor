@@ -1,14 +1,14 @@
 {
-	"name": "EntradaDeTexto",
+	"name": "EntradaDeTexto1",
 	"plugin-id": "TextBox",
-	"sid": 462355705755840,
-	"isGlobal": false,
+	"sid": 868012878040766,
+	"isGlobal": true,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Fade",
 			"name": "Desvanecer",
-			"sid": 273286411315213
+			"sid": 696225070599596
 		}
 	]
 }

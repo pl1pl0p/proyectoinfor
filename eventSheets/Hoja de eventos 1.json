@@ -5,6 +5,31 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 358550604244483
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 516791129306251,
+					"parameters": {
+						"audio-file": "ghosts_in_the_dark",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 629812519595155
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "is-overlapping-another-object",
 					"objectClass": "Sprite",
 					"sid": 906832723622036,
@@ -163,6 +188,36 @@
 				}
 			],
 			"sid": 856376657759340
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-visible",
+					"objectClass": "Sprite7",
+					"sid": 573311129772733
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 910236938748870
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 654921480771119,
+					"parameters": {
+						"audio-file": "creakylightwoodendoor",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 787409388160350
 		}
 	],
 	"sid": 790273494039530

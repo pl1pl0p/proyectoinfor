@@ -55,6 +55,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Plataforma",
@@ -121,7 +129,14 @@
 			"Sprite7",
 			"FondoEnMosaico7",
 			"Sprite8",
-			"personaj2"
+			"personaj2",
+			"Sprite9",
+			"Sprite10",
+			"Sprite11",
+			"Sprite12",
+			"Sprite13",
+			"Sprite14",
+			"Audio"
 		],
 		"subfolders": []
 	},
@@ -151,11 +166,37 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "creakylightwoodendoor.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 576393395156467,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "closing door.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 674670197044715,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "ghosts_in_the_dark.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 150584810965196,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"video": {

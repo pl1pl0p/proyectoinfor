@@ -1,5 +1,69 @@
 {
 	"name": "Hoja de eventos 2",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite",
+					"sid": 229427180296623,
+					"parameters": {
+						"object": "Sprite10"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-top",
+					"objectClass": "Sprite",
+					"sid": 226606666479547
+				}
+			],
+			"sid": 805530085325316
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite",
+					"sid": 296193153875189,
+					"parameters": {
+						"object": "Sprite11"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-top",
+					"objectClass": "Sprite",
+					"sid": 782951191302797
+				}
+			],
+			"sid": 148318392009713
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite",
+					"sid": 993879492591746,
+					"parameters": {
+						"object": "Sprite14"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-top",
+					"objectClass": "Sprite",
+					"sid": 452738149762108
+				}
+			],
+			"sid": 106813206080221
+		}
+	],
 	"sid": 947121380326001
 }

@@ -63,6 +63,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Botón",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Plataforma",
@@ -136,12 +144,31 @@
 			"Sprite12",
 			"Sprite13",
 			"Sprite14",
-			"Audio"
+			"Audio",
+			"Texto4",
+			"Texto5",
+			"Texto6",
+			"Sprite15",
+			"Sprite16",
+			"Sprite17",
+			"Sprite18",
+			"Texto7",
+			"Botón",
+			"Sprite19",
+			"Botón2"
 		],
 		"subfolders": []
 	},
 	"autosaveData": null,
-	"containers": [],
+	"containers": [
+		{
+			"members": [
+				"Botón",
+				"Sprite19"
+			],
+			"selectMode": "all"
+		}
+	],
 	"families": {
 		"items": [],
 		"subfolders": []
@@ -149,14 +176,18 @@
 	"layouts": {
 		"items": [
 			"Escena 1",
-			"Escena 2"
+			"Escena 2",
+			"Escena 3",
+			"fail"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Hoja de eventos 1",
-			"Hoja de eventos 2"
+			"Hoja de eventos 2",
+			"Hoja de eventos 3",
+			"fail1hoja"
 		],
 		"subfolders": []
 	},
@@ -192,6 +223,22 @@
 					"name": "ghosts_in_the_dark.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 150584810965196,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "cave themeb4.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 720771279439574,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "GAMEOVER.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 219591533227404,
 					"file-info": {
 						"purpose": "none"
 					}

@@ -63,6 +63,236 @@
 				}
 			],
 			"sid": 106813206080221
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 646614927931568,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto4",
+					"sid": 382392339402411,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto5",
+					"sid": 341967131663601,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto6",
+					"sid": 334665520873428,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 290540570014071
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 124149656346904,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Sprite10",
+					"sid": 964925984431369,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Sprite11",
+					"sid": 694228102792414,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 675453887793897
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 598633785102548,
+					"parameters": {
+						"object": "Sprite11"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite15",
+					"sid": 312686692532106,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 506577243081272,
+					"parameters": {
+						"audio-file": "closing door",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 551466468592464,
+					"parameters": {
+						"seconds": "1.5"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 461362994328821,
+					"parameters": {
+						"layout": "Escena 3"
+					}
+				}
+			],
+			"sid": 698852956196464
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 185622024065263,
+					"parameters": {
+						"object": "Sprite10"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite16",
+					"sid": 528211916570802,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 919679508322721,
+					"parameters": {
+						"audio-file": "closing door",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 610031183604077,
+					"parameters": {
+						"seconds": "1.5"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 103092406024705,
+					"parameters": {
+						"layout": "fail"
+					}
+				}
+			],
+			"sid": 153023528697521
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 837202388669734
+				}
+			],
+			"actions": [
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Sprite11",
+					"sid": 771635513151078,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Sprite10",
+					"sid": 851644166296142,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				}
+			],
+			"sid": 589029947446332
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 264241300105018
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 760228065349036,
+					"parameters": {
+						"audio-file": "cave themeb4",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 641865465842349
 		}
 	],
 	"sid": 947121380326001

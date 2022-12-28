@@ -1,0 +1,251 @@
+{
+	"name": "Hoja de eventos 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 338740332961027
+				}
+			],
+			"actions": [
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Sprite24",
+					"sid": 250514857565718,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Sprite25",
+					"sid": 942081377243535,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Sprite26",
+					"sid": 298665884911465,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 629645167962772,
+					"parameters": {
+						"audio-file": "022815townbgm",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 490694129637930
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 274569387242200,
+					"parameters": {
+						"key": 83
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Sprite24",
+					"sid": 780363053023243,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Sprite25",
+					"sid": 999235402449104,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Sprite26",
+					"sid": 421959147960503,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 869722803361725
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 599078409805720,
+					"parameters": {
+						"object": "Sprite24"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite27",
+					"sid": 561329956112846,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 477137710340210,
+					"parameters": {
+						"audio-file": "closing door",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 978471659472161,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 502500975206602,
+					"parameters": {
+						"layout": "Escena 4"
+					}
+				}
+			],
+			"sid": 369859619250520
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 210793053308213,
+					"parameters": {
+						"object": "Sprite25"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite28",
+					"sid": 128990480589324,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 834937255373828,
+					"parameters": {
+						"audio-file": "closing door",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 983549771135062,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 681951184790630,
+					"parameters": {
+						"layout": "fail"
+					}
+				}
+			],
+			"sid": 938781904026545
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 149890781958991,
+					"parameters": {
+						"object": "Sprite26"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite30",
+					"sid": 547249990395522,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 768337133394208,
+					"parameters": {
+						"audio-file": "closing door",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 818134084722078,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 405308914984892,
+					"parameters": {
+						"layout": "fail"
+					}
+				}
+			],
+			"sid": 545265925709590
+		}
+	],
+	"sid": 904288643266134
+}

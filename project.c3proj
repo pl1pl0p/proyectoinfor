@@ -179,7 +179,35 @@
 			"Sprite27",
 			"Sprite28",
 			"Sprite29",
+<<<<<<< Updated upstream
 			"Sprite30"
+=======
+			"Sprite30",
+			"Sprite31",
+			"Sprite32",
+			"Sprite33",
+			"Sprite34",
+			"Sprite35",
+			"Sprite36",
+			"Sprite37",
+			"Sprite38",
+			"Sprite39",
+			"Sprite40",
+			"FondoEnMosaico8",
+			"Sprite41",
+			"Sprite42",
+			"Sprite43",
+			"Sprite44",
+			"Sprite45",
+			"Sprite46",
+			"Texto12",
+			"Texto13",
+			"EntradaDeTexto2",
+			"Sprite47",
+			"Sprite48",
+			"Sprite49",
+			"Texto14"
+>>>>>>> Stashed changes
 		],
 		"subfolders": []
 	},
@@ -273,6 +301,14 @@
 					"name": "022815townbgm.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 199430895076839,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "End Theme.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 390249741274691,
 					"file-info": {
 						"purpose": "none"
 					}

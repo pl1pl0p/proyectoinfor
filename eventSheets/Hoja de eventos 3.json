@@ -36,6 +36,14 @@
 					}
 				},
 				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 209167161634128,
+					"parameters": {
+						"tag": "\"cave themeb4.webm\""
+					}
+				},
+				{
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 629645167962772,

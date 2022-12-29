@@ -280,6 +280,14 @@
 			],
 			"actions": [
 				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 325799268395255,
+					"parameters": {
+						"tag": "\"ghosts_in_the_dark.webm\""
+					}
+				},
+				{
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 760228065349036,

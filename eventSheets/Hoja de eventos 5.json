@@ -1,0 +1,36 @@
+{
+	"name": "Hoja de eventos 5",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 818938464665603
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 635127111841011
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 561185859406619,
+					"parameters": {
+						"audio-file": "End Theme",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 368812924461861
+		}
+	],
+	"sid": 890573247746534
+}

@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite17",
+					"type": "Sprite34",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -19,9 +19,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 431,
-						"y": 315.5,
-						"width": 870,
+						"x": 430,
+						"y": 319,
+						"width": 877,
 						"height": 637,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -29,35 +29,6 @@
 							1,
 							1,
 							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite18",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 31,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 415,
-						"y": 194,
-						"width": 490,
-						"height": 309,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							0.9411764705882353,
-							0.9411764705882353,
 							1
 						],
 						"angle": 0,

@@ -13,35 +13,32 @@
 			"actions": [
 				{
 					"id": "set-collisions-enabled",
-					"objectClass": "Sprite24",
-					"sid": 250514857565718,
+					"objectClass": "Sprite35",
+					"sid": 302084384454257,
 					"parameters": {
 						"collisions": "disabled"
 					}
 				},
 				{
 					"id": "set-collisions-enabled",
-					"objectClass": "Sprite25",
-					"sid": 942081377243535,
+					"objectClass": "Sprite36",
+					"sid": 994338928357333,
 					"parameters": {
 						"collisions": "disabled"
 					}
 				},
 				{
 					"id": "set-collisions-enabled",
-					"objectClass": "Sprite26",
-					"sid": 298665884911465,
+					"objectClass": "Sprite37",
+					"sid": 335197767795533,
 					"parameters": {
 						"collisions": "disabled"
 					}
 				},
 				{
-					"id": "stop",
+					"id": "stop-all",
 					"objectClass": "Audio",
-					"sid": 209167161634128,
-					"parameters": {
-						"tag": "\"cave themeb4.webm\""
-					}
+					"sid": 169022978004383
 				},
 				{
 					"id": "play",
@@ -73,24 +70,24 @@
 			"actions": [
 				{
 					"id": "set-collisions-enabled",
-					"objectClass": "Sprite24",
-					"sid": 780363053023243,
+					"objectClass": "Sprite35",
+					"sid": 430833241467540,
 					"parameters": {
 						"collisions": "enabled"
 					}
 				},
 				{
 					"id": "set-collisions-enabled",
-					"objectClass": "Sprite25",
-					"sid": 999235402449104,
+					"objectClass": "Sprite36",
+					"sid": 991801659230728,
 					"parameters": {
 						"collisions": "enabled"
 					}
 				},
 				{
 					"id": "set-collisions-enabled",
-					"objectClass": "Sprite26",
-					"sid": 421959147960503,
+					"objectClass": "Sprite37",
+					"sid": 670051960181166,
 					"parameters": {
 						"collisions": "enabled"
 					}
@@ -104,9 +101,9 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Sprite",
-					"sid": 599078409805720,
+					"sid": 852580857827467,
 					"parameters": {
-						"object": "Sprite24"
+						"object": "Sprite35"
 					}
 				}
 			],
@@ -156,9 +153,9 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Sprite",
-					"sid": 210793053308213,
+					"sid": 227634230136312,
 					"parameters": {
-						"object": "Sprite25"
+						"object": "Sprite36"
 					}
 				}
 			],
@@ -208,9 +205,9 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Sprite",
-					"sid": 149890781958991,
+					"sid": 135489152029756,
 					"parameters": {
-						"object": "Sprite26"
+						"object": "Sprite37"
 					}
 				}
 			],

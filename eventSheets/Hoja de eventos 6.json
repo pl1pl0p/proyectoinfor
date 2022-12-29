@@ -1,0 +1,89 @@
+{
+	"name": "Hoja de eventos 6",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón4",
+					"sid": 740673591430445
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 845506417866891,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 174053796125030
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón5",
+					"sid": 778725991844316
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto17",
+					"sid": 945633418460078,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 348840220134224,
+					"parameters": {
+						"seconds": "5"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto17",
+					"sid": 580521760921023,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 298576009942805
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 363058836240756
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 700054226874279,
+					"parameters": {
+						"audio-file": "RPG - Exploration - (Maddie&#039;s Mirror)",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 816878997313286
+		}
+	],
+	"sid": 656784374801384
+}

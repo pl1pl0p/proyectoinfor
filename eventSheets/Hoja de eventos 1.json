@@ -12,6 +12,11 @@
 			],
 			"actions": [
 				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 674428695443755
+				},
+				{
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 516791129306251,

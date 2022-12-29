@@ -90,7 +90,7 @@
 					"world": {
 						"x": 240,
 						"y": 313,
-						"width": 485,
+						"width": 484.99999999999994,
 						"height": 475,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -119,7 +119,7 @@
 					"world": {
 						"x": 653,
 						"y": 312,
-						"width": 490,
+						"width": 490.00000000000006,
 						"height": 478,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -389,7 +389,7 @@
 					}
 				},
 				{
-					"type": "Sprite15",
+					"type": "Sprite31",
 					"properties": {
 						"initially-visible": false,
 						"initial-animation": "Animation 1",
@@ -401,10 +401,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 654,
-						"y": 316.5,
-						"width": 509,
-						"height": 490,
+						"x": 240,
+						"y": 312,
+						"width": 527,
+						"height": 476,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -418,7 +418,7 @@
 					}
 				},
 				{
-					"type": "Sprite16",
+					"type": "Sprite32",
 					"properties": {
 						"initially-visible": false,
 						"initial-animation": "Animation 1",
@@ -430,10 +430,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 250.5,
+						"x": 654,
 						"y": 309,
-						"width": 555,
-						"height": 483,
+						"width": 527,
+						"height": 476,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

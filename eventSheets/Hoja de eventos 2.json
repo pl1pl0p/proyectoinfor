@@ -151,8 +151,8 @@
 			"actions": [
 				{
 					"id": "set-visible",
-					"objectClass": "Sprite15",
-					"sid": 312686692532106,
+					"objectClass": "Sprite32",
+					"sid": 723508726090267,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -203,8 +203,8 @@
 			"actions": [
 				{
 					"id": "set-visible",
-					"objectClass": "Sprite16",
-					"sid": 528211916570802,
+					"objectClass": "Sprite31",
+					"sid": 854981901228744,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -280,12 +280,9 @@
 			],
 			"actions": [
 				{
-					"id": "stop",
+					"id": "stop-all",
 					"objectClass": "Audio",
-					"sid": 325799268395255,
-					"parameters": {
-						"tag": "\"ghosts_in_the_dark.webm\""
-					}
+					"sid": 831877669488079
 				},
 				{
 					"id": "play",

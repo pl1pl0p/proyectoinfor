@@ -179,9 +179,6 @@
 			"Sprite27",
 			"Sprite28",
 			"Sprite29",
-<<<<<<< Updated upstream
-			"Sprite30"
-=======
 			"Sprite30",
 			"Sprite31",
 			"Sprite32",
@@ -206,8 +203,14 @@
 			"Sprite47",
 			"Sprite48",
 			"Sprite49",
-			"Texto14"
->>>>>>> Stashed changes
+			"Texto14",
+			"Botón3",
+			"Texto15",
+			"Sprite50",
+			"Botón4",
+			"Botón5",
+			"Texto16",
+			"Texto17"
 		],
 		"subfolders": []
 	},
@@ -227,11 +230,13 @@
 	},
 	"layouts": {
 		"items": [
+			"inicio",
 			"Escena 1",
 			"Escena 2",
 			"Escena 3",
 			"fail",
-			"Escena 4"
+			"Escena 4",
+			"Escena 5"
 		],
 		"subfolders": []
 	},
@@ -241,7 +246,9 @@
 			"Hoja de eventos 2",
 			"Hoja de eventos 3",
 			"fail1hoja",
-			"Hoja de eventos 4"
+			"Hoja de eventos 4",
+			"Hoja de eventos 5",
+			"Hoja de eventos 6"
 		],
 		"subfolders": []
 	},
@@ -309,6 +316,14 @@
 					"name": "End Theme.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 390249741274691,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "RPG - Exploration - (Maddie&#039;s Mirror).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 228284569224231,
 					"file-info": {
 						"purpose": "none"
 					}

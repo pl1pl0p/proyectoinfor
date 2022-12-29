@@ -12,12 +12,17 @@
 			],
 			"actions": [
 				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 306119315646621
+				},
+				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 469112773555292,
+					"sid": 278797428690391,
 					"parameters": {
 						"audio-file": "GAMEOVER",
-						"loop": "looping",
+						"loop": "not-looping",
 						"volume": "0",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""

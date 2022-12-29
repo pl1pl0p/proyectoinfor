@@ -5,7 +5,37 @@
 			"name": "Capa 0",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
+			"instances": [
+				{
+					"type": "Sprite42",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 45,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 431,
+						"y": 280,
+						"width": 882,
+						"height": 633,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 373548597259862,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
@@ -33,8 +63,6 @@
 			"blendMode": "normal",
 			"zElevation": 0,
 			"global": false
-<<<<<<< Updated upstream
-=======
 		},
 		{
 			"name": "Capa 1",
@@ -411,7 +439,6 @@
 			"blendMode": "normal",
 			"zElevation": 0,
 			"global": false
->>>>>>> Stashed changes
 		}
 	],
 	"sid": 836094509555559,

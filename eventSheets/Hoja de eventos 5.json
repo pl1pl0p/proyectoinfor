@@ -30,6 +30,27 @@
 				}
 			],
 			"sid": 368812924461861
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón3",
+					"sid": 734855883394134
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 505692337644817,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 363672723227067
 		}
 	],
 	"sid": 890573247746534

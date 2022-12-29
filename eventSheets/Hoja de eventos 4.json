@@ -1,5 +1,152 @@
 {
 	"name": "Hoja de eventos 4",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 528591851894759,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto12",
+					"sid": 548226681984139,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 800931278800087,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto13",
+					"sid": 419136720354058,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "EntradaDeTexto2",
+					"sid": 702587052199787,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 249794908191486
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "EntradaDeTexto2",
+					"sid": 802573261576289,
+					"parameters": {
+						"text": "\"Nodo\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite47",
+					"sid": 747910254152853,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Sprite47",
+					"sid": 317372206560667,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 883344112156065
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 722797078561069
+				}
+			],
+			"actions": [
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Sprite47",
+					"sid": 772160410682731,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				}
+			],
+			"sid": 383663202027947
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 389176984975087,
+					"parameters": {
+						"object": "Sprite47"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 632926061833163,
+					"parameters": {
+						"audio-file": "closing door",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 727634985304904,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 210501120829583,
+					"parameters": {
+						"layout": "Escena 5"
+					}
+				}
+			],
+			"sid": 552715385485901
+		}
+	],
 	"sid": 441901552744330
 }
